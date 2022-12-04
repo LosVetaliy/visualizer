@@ -9,7 +9,7 @@ const visualizers = [
 ]
 
 const run = () => {
-    const track = new Track('./static/GORYACHOHOLODNO_175_135.mp3') 
+    const track = new Track('./static/po-33 house jam.mp3') 
     const renderFrame = () => {
         requestAnimationFrame(renderFrame);
 
