@@ -15,6 +15,7 @@ export class Track {
 
         this.analyser.fftSize = 1024;
     }
+    
     getByteFrequencyData() {
         const data = new Uint8Array(this.analyser.frequencyBinCount);
         this.analyser.getByteFrequencyData(data);
